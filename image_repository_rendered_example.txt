@@ -1,0 +1,37 @@
+
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: podinfo-multi
+  namespace: arsh-ns
+spec:
+  image: gcr.io/xyz/abc
+  interval: 1m
+   
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: podinfo-multi
+  namespace: arsh-ns
+spec:
+  image: docker.io/nnnn
+  interval: 1m
+   
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: podinfo-multi
+  namespace: arsh-ns
+spec:
+  image: mginx
+  interval: 1m
+   
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: podinfo-multi
+  namespace: arsh-ns
+spec:
+  image: test value
+  interval: 1m
+   
